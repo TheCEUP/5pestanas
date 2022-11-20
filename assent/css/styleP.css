@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+   }
+
+.html{
+    background-color: rgba(123, 161, 219, 0.863);
+    color: rgb(123, 161, 219, 0.863);
+    font-size: 14pt;
+}
+
+.header{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(248, 22, 6, 0.61);
+    background-image: url(../img/Prime.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.Prime{
+    background: radial-gradient(circle, rgba(0,68,110,1) 58%, rgba(0,45,119,1) 90%);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(13, 103, 155);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.flecha{
+    color:white;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(50, 56, 143);
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    z-index: 10;
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    text-decoration:none;
+
+}
